@@ -10,11 +10,17 @@
 
 <style>
     body {
-        background-image: url(/task1/images/landscape.jpeg);
+        background-image: url(/task1/images/landscape1.jpeg);
         background-repeat: no-repeat;
         background-size: cover;
         margin: 0;
         padding: 0;
+    }
+    
+    .border {
+        background-color: yellow;
+        height: 200px;
+        margin: 5px;
     }
     
     ul {
@@ -39,33 +45,12 @@
         background-color: #766c6c;
     }
     
-    h2 {
-        font-size: larger;
-        text-align: center;
-        font-size: 50px;
-        color: #40534C;
-    }
-    
-    p {
+    .main {
+        height: 50px;
+        width: 50%;
         font-size: 30px;
-        height: 20%;
-        width: 50%;
-        text-align: center;
-    }
-    
-    button {
-        font-size: 20px;
-        font-weight: 500;
-        text-transform: capitalize;
-        padding: 20px;
-        border-radius: 30px;
-    }
-    
-    .main p,
-    h2 {
-        height: 10%;
-        width: 50%;
-        text-align: center;
+        color: #fff;
+        margin: 20px;
     }
 </style>
 
@@ -75,17 +60,19 @@
     <header>
         <nav>
             <div class="logo">
-                <ul>
-                    <img src="/task1/images/cognifyz logo.png">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#courses">Courses</a></li>
-                    <li><a href="#career">Career</a></li>
-                    <li><a href="#intern">Internships</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                <div class="border">
+                    <ul>
+                        <img src="/task1/images/cognifyz logo.png">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#courses">Courses</a></li>
+                        <li><a href="#career">Career</a></li>
+                        <li><a href="#intern">Internships</a></li>
+                        <li><a href="#contact">Contact</a></li>
 
-                </ul>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
